@@ -13,3 +13,66 @@
 .clearfix:after {
   clear: both;
 }
+
+/* utilities */
+
+.bg-green {
+	background-color: #2ecc71;
+}
+
+.bg-grey {
+	background-color: #f5f5f5;
+	color: #34495e;
+}
+
+.bg-blue {
+	background-color: #34495e;
+}
+
+body {
+	color: #fff;
+}
+
+/* header */
+
+.navbar-inverse {
+	background-color: #34495e;
+	padding: 1%;
+}
+
+.navbar-nav {
+	margin: 10px;
+}
+
+.navbar-nav>li>a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+}
+
+.navbar-collapse li .active {
+	background-color: #2c3e50;
+}
+
+/* hero-image */
+
+.hero-image {
+	background: url(../images/slider/bg1.jpg) center no-repeat;
+	background-size: cover;
+	height: 655px;
+	margin: 6% 0 0;
+	padding: 300px 0;
+}
+
+/* bg-green */
+
+.bg-green {
+	padding: 5%;
+}
+
+.bg-green .icon {
+	margin: 3%;
+	padding: 2px 3px;
+	border-radius: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
