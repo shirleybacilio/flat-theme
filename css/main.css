@@ -29,6 +29,12 @@
 	background-color: #34495e;
 }
 
+.mg-1 {
+	margin: 1% 0;
+}
+
+/* end utilities */
+
 body {
 	color: #fff;
 }
@@ -67,12 +73,55 @@ body {
 /* bg-green */
 
 .bg-green {
-	padding: 5%;
+	padding: 50px;
 }
 
 .bg-green .icon {
-	margin: 3%;
-	padding: 2px 3px;
+	width: 68px;
+	height: 68px;
+	padding: 13px 15px;
 	border-radius: 100%;
+	display: block;
 	background-color: rgba(0, 0, 0, 0.4);
 }
+
+.bg-green .icon-facebook {
+	padding: 13px 25px;
+}
+
+/* bg-grey */
+
+.bg-grey {
+	padding: 5%;
+}
+
+.bg-grey .btn {
+	border-radius: 0;
+	padding: 6px 10px;
+}
+
+.btn-left {
+	border-top-left-radius: 4px !important;
+	border-bottom-left-radius: 4px !important;
+}
+
+.btn-right {
+	border-top-right-radius: 4px !important;
+	border-bottom-right-radius: 4px !important;
+}
+
+.item {
+	width: 100%;
+	background-color: #fff;
+	padding: 7px 5px 1px;
+}
+
+.item h5 {
+	font-weight: 700;
+}
+
+.bg-grey .col-xs-4, .bg-grey .col-sm-6 {
+	margin: 4% 0%;
+}
+
+/* Inserta tu código cacharrero, Shirleyfilla */
