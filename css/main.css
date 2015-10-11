@@ -76,6 +76,19 @@ body {
 	padding: 50px;
 }
 
+.bg-green.services {
+	padding: 112px 0 50px;
+}
+
+.bg-green h2 {
+	margin-bottom: 0;
+}
+
+.bg-green a, .bg-green a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
 .bg-green .icon {
 	width: 68px;
 	height: 68px;
@@ -87,6 +100,19 @@ body {
 
 .bg-green .icon-facebook {
 	padding: 13px 25px;
+}
+
+.bg-green li {
+	display: inline-block;
+}
+
+.bg-green li p {
+	font-size: 0.9em;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.bg-green li p span {
+	margin: 2%;
 }
 
 /* bg-grey */
@@ -125,3 +151,4 @@ body {
 }
 
 /* Inserta tu código cacharrero, Shirleyfilla */
+
